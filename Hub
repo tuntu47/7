@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 OrionLib:MakeNotification({
 
-	Name = "Welcome",	Content = "Welcome To My Script Hub",
+	Name = "Welcome",	Content = "Made By tuntu47",
 
 	Image = "rbxassetid://4483345998",
 
@@ -127,6 +127,30 @@ MainTab:AddButton({
 	Name = "Slap Battles",
 
 	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))()
+
+      		print("button pressed")
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Evade",
+
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/.x.vr.e.hi/evade.lua"))()
+
+      		print("button pressed")
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "3008",
+
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-AlexvHub-9765"))()
 
       		print("button pressed")
 
